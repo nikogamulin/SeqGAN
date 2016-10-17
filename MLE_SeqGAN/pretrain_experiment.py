@@ -23,6 +23,8 @@ BATCH_SIZE = 64
 positive_file = 'save/real_data.txt'
 negative_file = 'target_generate/generator_sample.txt'
 eval_file = 'target_generate/eval_file.txt'
+vocabulary_file = '../corpus_tools/index2word.pickle'
+index2word = cPickle.load(open(vocabulary_file, "rb"))
 
 generated_num = 10000
 
@@ -80,10 +82,14 @@ def main():
 
     gen_data_loader = Gen_Data_loader(BATCH_SIZE)
     likelihood_data_loader = Likelihood_data_loader(BATCH_SIZE)
-    vocab_size = 5000
+    #vocab_size = 5000
+    vocab_size = len(index2word) + 1
 
     generator = get_trainable_model(vocab_size)
     target_params = cPickle.load(open('save/target_params.pkl'))
+    target_params[00] = np.random.rand(vocab_size, 32).astype(np.float32)
+    target_params[-2] = np.random.rand(32, vocab_size).astype(np.float32)
+    target_params[-1] = np.random.rand(vocab_size).astype(np.float32)
     target_lstm = TARGET_LSTM(vocab_size, 64, 32, 32, 20, 0, target_params)
 
     config = tf.ConfigProto()
@@ -110,7 +116,7 @@ def main():
             buffer = str(epoch) + ' ' + str(test_loss) + '\n'
             log.write(buffer)
 
-    generate_samples(sess, generator, BATCH_SIZE, generated_num, eval_file)
+    #generate_samples(sess, generator, BATCH_SIZE, generated_num, eval_file)
     likelihood_data_loader.create_batches(eval_file)
     test_loss = target_loss(sess, target_lstm, likelihood_data_loader)
     buffer = 'After supervised-training:' + ' ' + str(test_loss) + '\n'

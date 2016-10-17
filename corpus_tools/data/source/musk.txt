@@ -1,0 +1,33 @@
+Elon Musk, lastnik vesoljskega transportnega podjetja SpaceX, je na nedavnem kongresu Mednarodne astronavtične federacije (IAF) v Mehiki predstavil vizijo začetka kolonizacije Marsa. Želi si, da bi prvih sto potnikov po 80 dneh potovanja stopilo na Mars že leta 2024.
+
+O začetkih raziskovanja Marsa in gradnji naselbin na tem rdečem planetu v našem osončju je ameriški milijarder Musk govoril že leta 2007, ko njegove vesoljske ambicije še niso bile tako znane, kot so danes. V prihodnjih letih so počasi in postopno v javnost prihajali drobci informacij, ki so zadevali arhitekturo tega zapletenega in zahtevnega vesoljskega programa. Leta 2014 je izjavil, da naj bi prvi kolonisti prišli na Mars sredi dvajsetih let našega stoletja, torej leta 2025 ali čez devet let. Že leta 2012 je razkril svojo zamisel, da naj bi bilo v tej prihodnji koloniji več tisoč ljudi.
+
+Leta 2012 se je ukvarjal z zelo zahtevnim načrtom, ki vključuje drugi celotni popolnoma uporabljivi vesoljski sistem. Ta bi pomenil korak naprej od raket Falcon 9 in Falcon Heavy, ki naj bi bili samo delno spet uporabljivi. Nova satelitska nosilna raketa bi pomenila evolucijo dvostopenjske rakete Falcon 9, vendar bi bila precej večja in močnejša.
+
+Musk je sredi leta 2013 napovedal sistem Mars Colonial Transporter (MCM), ki naj bi na površino planeta pripeljal sto ton tovora in več ljudi. Novi vesoljski prevozni sistem naj bi poganjali tudi novi raketni motorji, imenovani Raptor, ki bi kot gorivo uporabljali utekočinjeni plin metan in kot oksidator tekoči kisik.
+
+Prevozi do Marsa in še dlje
+
+Na začetku lanskega leta je Musk namignil, da bo dal v javnost popolnoma novo arhitekturo, ki zadeva prevozni sistem za Mars, vendar se je očitno premislil in napoved preložil na leto 2016. Svojo vizijo začetka kolonizacije Marsa je predstavil 27. septembra v mehiškem mestu Guadalajara na 67. kongresu Mednarodne astronavtične federacije (IAF).
+
+Poudaril je, da se program ne bo več imenoval Mars Colonial Transporter (MCT), ampak Interplanetary Transport System (ITS) ali Medplanetarni prevozni sistem. Ime so spremenili zato, ker bi ta vesoljski sistem lahko uporabljali tudi za prevoze do drugih vesoljskih teles našega sončnega sistema, denimo do Jupitrove lune Evropa in Saturnove lune Enkelad.
+
+Medplanetarni transportni sistem sestavlja kombinacija več elementov, ki naj bi bili po mnenju predlagatelja ključ do vesoljskih poletov zunaj zemeljske orbite in v velike vesoljske globine.
+
+Prva sestavina naj bi bila nova super močna satelitska nosilna raketa, ki bi bila v celoti popolnoma uporabljiva. Sestavljena bi bila iz prve raketne stopnje in ponovno uporabljive druge raketne stopnje. Ta druga raketna stopnja bi bila na voljo v dveh različicah. Prva bi pomenila veliko medplanetarno vesoljsko plovilo, ki bi bilo sposobno voziti potnike in tovor v medplanetarne razdalje. Kombinacija druge raketne stopnje in medplanetarnega vozila je nenavadna za katerokoli arhitekturo vesoljskega poleta.
+
+Druga različica bi bila tanker za dostavo goriva v orbito okoli Zemlje. Dostava goriva v orbito in njegovo prečrpavanje v že omenjeno medplanetarno vozilo bi moralo potekati večkrat, lahko tudi petkrat. Tako bi omogočili, da 450 ton težko medplanetarno vozilo odpotuje do Marsa, varno vstopi v njegovo atmosfero in prav tako varno pristane na površini.
+
+Predlagatelj je napovedal, da bi na krovu medplanetarnega vozila lahko potovalo sto potnikov, potovanje pa bi trajalo 80 dni, kar je glede na dosedanje polete vesoljskih sond brez posadk do Marsa kratek čas.
+
+Pred pristankom plovila s potniki bi morali na površini tega planeta že postaviti samodejni obrat za izdelavo pogonskega goriva in oksidatorja. Na Marsu je namreč dovolj ogljikovega dioksida in tudi vode, da se iz njiju izdelata metan in kisik. Tako bi z gorivom lahko oskrbovali medplanetarno vozilo, lahko pa bi tudi omogočili vrnitev na Zemljo ali celo nadaljevanje potovanja do drugih ciljev v našem sončnem sistemu.
+
+Sistem poganja 42 motorjev Raptor
+
+Interplanetarni prevozni sistem ima dve stopnji. Prvo stopnjo poganja kar 42 motorjev tipa Raptor. Ta v svoji spet uporabljivi različici v orbito okoli zemlje lahko spravi tovor 300 ton. Če se bodo odločili za samo enkratno uporabo, kar je značilnost vseh satelitskih raket, bi v orbito spravili tovor 500 ton. To je več kot znaša masa Mednarodne vesoljske postaje v orbiti.
+
+Drugo stopnjo poganja šest raketnih motorjev vrste Raptor, ki so prilagojeni za delovanje v vakuumu, in trije raketni motorji, ki so drugačni. Prav ti trije motorji omogočajo manevriranje tako tankerja na izstrelišče, kot imajo vlogo v medplanetnemu vozilu.
+
+Velika raketa bo ob izstrelitvi tehtala 10.500 ton ali več kot trikrat več kot težka nosilna raketa Saturn V, s katero je pristal človek na Luni. Ob izstrelitvi bo raketa s premerom 12 metrov imela potisno silo 128 MN (Mega Newton je enota za potisno silo), v višino pa bo segala 77 metrov. Druga stopnja bo imela premer 17 metrov, celotna raketa pa bo visoka 122 metrov. Ogrodje bo izdelano iz ogljikovih vlaken. Raketo naj bi izstrelili z izstrelne ploščadi 39 A v Kennedyjevem vesoljskem središču na Floridi, od koder je leta 1969 proti Luni poletela raketa Apollo 11 s človeško posadko.
+
+Razvoj in financiranje medplanetarnega transportnega sistema je v celoti financirala družba SpaceX. Ta zdaj sredstva pridobiva s komercialnim trženjem svoje velike rakete Falcon 9 in prevoznih uslug za Naso. Pobudnik te zamisli Elon Musk meni, da bo njegova raketa cenejša od nove velike rakete ali Space Launch Systems (SLS), ki ga razvija Nasa. Musk pričakuje zasebna in javna sredstva pri uresničitvi te zamisli. Kako se bo stvar razvijala v prihodnje, bo seveda pokazal čas.
