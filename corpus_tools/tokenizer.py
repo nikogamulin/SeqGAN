@@ -21,7 +21,8 @@ for sentence in sentences:
     if sentenceLength > maxSentenceLength:
         maxSentenceLength = sentenceLength
     for word in words:
-        wordStemmed = stemmer.stemWord(word.lower())
+        #wordStemmed = stemmer.stemWord(word.lower())
+        wordStemmed = word.lower()
         if wordStemmed in word2index:
             index = word2index[wordStemmed]
         else:

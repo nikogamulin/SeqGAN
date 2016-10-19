@@ -98,7 +98,7 @@ def main():
     sess = tf.Session(config=config)
     sess.run(tf.initialize_all_variables())
 
-    generate_samples(sess, target_lstm, 64, 10000, positive_file)
+    #generate_samples(sess, target_lstm, 64, 10000, positive_file)
     gen_data_loader.create_batches(positive_file)
 
     log = open('log/experiment-log.txt', 'w')
@@ -116,7 +116,7 @@ def main():
             buffer = str(epoch) + ' ' + str(test_loss) + '\n'
             log.write(buffer)
 
-    #generate_samples(sess, generator, BATCH_SIZE, generated_num, eval_file)
+    generate_samples(sess, generator, BATCH_SIZE, generated_num, eval_file)
     likelihood_data_loader.create_batches(eval_file)
     test_loss = target_loss(sess, target_lstm, likelihood_data_loader)
     buffer = 'After supervised-training:' + ' ' + str(test_loss) + '\n'

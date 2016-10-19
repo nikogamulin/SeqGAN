@@ -158,7 +158,7 @@ def main():
     sess = tf.Session(config=config)
     sess.run(tf.initialize_all_variables())
 
-    generate_samples(sess, target_lstm, 64, 10000, positive_file)
+    #generate_samples(sess, target_lstm, 64, 10000, positive_file)
     gen_data_loader.create_batches(positive_file)
 
     log = open('log/experiment-log.txt', 'w')
