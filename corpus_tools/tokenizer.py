@@ -1,13 +1,14 @@
-import Stemmer
+#import Stemmer
 import nltk
 import pickle
 import re
-stemmer = Stemmer.Stemmer('english')
+#stemmer = Stemmer.Stemmer('english')
 word2index = {}
 index2word = {}
 maxSentenceLength = 0
 sequenceOfIndicesSentences = []
 MODEL_FILE = '../MLE_SeqGAN/save/target_params.pkl'
+SENTENCES_FILE = '../MLE_SeqGAN/save/real_data.txt'
 with open('./data/source/dickens.txt', 'r') as f:
     content = ''.join(f.readlines()).replace("\n", "")
     sentences = re.split(r' *[\.\?!][\'"\)\]]* *', content)
@@ -21,7 +22,8 @@ for sentence in sentences:
     if sentenceLength > maxSentenceLength:
         maxSentenceLength = sentenceLength
     for word in words:
-        wordStemmed = stemmer.stemWord(word.lower())
+        #wordStemmed = stemmer.stemWord(word.lower())
+        wordStemmed = word.lower()
         if wordStemmed in word2index:
             index = word2index[wordStemmed]
         else:
@@ -46,5 +48,5 @@ for sentence in sequenceOfIndicesSentences:
 
 for sentence in sentencesModified:
     strSentence = " ".join([str(index) for index in sentence]) + "\n"
-    with open("real_data.txt", "a") as text_file:
+    with open(SENTENCES_FILE, "a") as text_file:
         text_file.write(strSentence)
