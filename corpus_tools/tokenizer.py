@@ -10,7 +10,7 @@ sequenceOfIndicesSentences = []
 MODEL_FILE = '../MLE_SeqGAN/save/target_params.pkl'
 SENTENCES_FILE = '../MLE_SeqGAN/save/real_data.txt'
 with open('./data/source/dickens.txt', 'r') as f:
-    content = ''.join(f.readlines()).replace("\n", "")
+    content = ''.join(f.readlines()).replace("\n", " ")
     sentences = re.split(r' *[\.\?!][\'"\)\]]* *', content)
 model = pickle.load(open(MODEL_FILE, "rb"))
 for sentence in sentences:

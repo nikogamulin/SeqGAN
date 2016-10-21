@@ -3,7 +3,8 @@ import cPickle as pickle
 DEBUG = True
 
 #FILE_TO_PROCESS_DEMO = '../MLE_SeqGAN/save/real_data.txt'
-FILE_TO_PROCESS_DEMO = '../MLE_SeqGAN/target_generate/eval_file.txt'
+#FILE_TO_PROCESS_DEMO = '../MLE_SeqGAN/target_generate/eval_file.txt'
+FILE_TO_PROCESS_DEMO = '../MLE_SeqGAN/target_generate/generator_sample.txt'
 index2word = pickle.load(open("index2word.pickle", "rb"))
 
 def getSentences(filename = FILE_TO_PROCESS_DEMO):
