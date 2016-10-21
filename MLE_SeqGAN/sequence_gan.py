@@ -10,6 +10,8 @@ from rollout import ROLLOUT
 from target_lstm import TARGET_LSTM
 import cPickle
 
+from text_generator import TextGenerator
+
 #########################################################################################
 #  Generator  Hyper-parameters
 #########################################################################################
@@ -120,11 +122,13 @@ def main():
     random.seed(SEED)
     np.random.seed(SEED)
 
+    stringGenerator = TextGenerator('index2word.pickle', 'word2index.pickle', '../corpus_tools/data/source/dickens.txt')
+
     assert START_TOKEN == 0
 
     gen_data_loader = Gen_Data_loader(BATCH_SIZE)
     likelihood_data_loader = Likelihood_data_loader(BATCH_SIZE)
-    vocab_size = len(index2word) + 1
+    vocab_size = len(stringGenerator.index2Word)
     dis_data_loader = Dis_dataloader()
 
     best_score = 1000
@@ -159,6 +163,7 @@ def main():
     sess.run(tf.initialize_all_variables())
 
     #generate_samples(sess, target_lstm, 64, 10000, positive_file)
+    stringGenerator.saveSamplesToFile(20, 10000, positive_file)
     gen_data_loader.create_batches(positive_file)
 
     log = open('log/experiment-log.txt', 'w')
