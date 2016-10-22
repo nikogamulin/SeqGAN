@@ -88,7 +88,7 @@ class TextGenerator:
         else:
             sentenceIndex = randint(0, self.sentencesCount - 1)
             wordsSequence = self.sentences[sentenceIndex]
-            tokensSequence = [self.word2Index[word.lower()] for word in wordsSequence]
+            tokensSequence = [self.word2Index[word.lower()] for word in wordsSequence if word in self.word2Index]
             spacesToAppend = length - len(tokensSequence)
             if spacesToAppend > 0:
                 tokensSequence += [0] * spacesToAppend
@@ -130,7 +130,7 @@ class TextGenerator:
         #strWords = " ".join(words)
 if __name__ == "__main__":
     testInput = "./target_generate/generator_sample.txt"
-    generator = TextGenerator('index2word.pickle', 'word2index.pickle', '../corpus_tools/data/source/dickens.txt')
+    generator = TextGenerator('index2word.pickle', 'word2index.pickle', '../corpus_tools/data/source/Charles Dickens - Oliver Twist.txt')
 
     for _ in range(20):
         testSequenceIndices = generator.generateSequence(20)

@@ -79,7 +79,7 @@ def pre_train_epoch(sess, trainable_model, data_loader):
 def main():
     random.seed(SEED)
     np.random.seed(SEED)
-    stringGenerator = TextGenerator('index2word.pickle', 'word2index.pickle', '../corpus_tools/data/source/dickens.txt')
+    stringGenerator = TextGenerator('index2word.pickle', 'word2index.pickle', '../corpus_tools/data/source/Charles Dickens - Oliver Twist.txt')
 
 
     assert START_TOKEN == 0
